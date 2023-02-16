@@ -1,3 +1,131 @@
 body {
   background: peachpuff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width:100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  outline: 2px solid black;
+  margin: 10px;
+}
+.a {
+  width: 100%;
+  height: 2in;
+  outline: 1px solid black;
+  text-align: center;
+  margin: 10px;
+  background: white;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  width:70%;
+  margin:0;
+}
+.b {
+  width:32%;
+  height:3.5in;
+  outline: 1px solid black;
+  margin: 5px;
+  background: red;
+}
+.c {
+  width:32%;
+  height:3.5in;
+  outline: 1px solid black;
+  margin: 5px;
+  background: blue;
+}
+.d {
+  width:32%;
+  height:3.5in;
+  outline: 1px solid black;
+  margin: 5px;
+  background: yellow;
+}
+.e {
+  width:32%;
+  height:3.5in;
+  outline: 1px solid black;
+  margin: 5px;
+  background: green;
+}
+.f {
+  width:32%;
+  height:3.5in;
+  outline: 1px solid black;
+  margin: 5px;
+  background: orange;
+}
+.g {
+  width:32%;
+  height:3.5in;
+  outline: 1px solid black;
+  margin: 5px;
+  background: purple;
+}
+.h {
+  width: 30%;
+  height: 700px;
+  outline: 1px solid black;
+  background: turquoise;
+}
+
+@media (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+  }
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:5px;
+  }
+  .a {
+    width: 100%;
+    height: 1in;;
+  }
+  .b {
+    width: 1.75in;
+    height: 1.75in;
+  }
+  .c {
+    width: 1.75in;
+    height: 1.75in;
+  }
+  .d {
+    width: 1.75in;
+    height: 1.75in;
+  }
+  .e {
+    width: 1.75in;
+    height: 1.75in;
+  }
+  .f {
+    width: 1.75in;
+    height: 1.75in;
+  }
+  .g {
+    width: 1.75in;
+    height: 1.75in;
+  }
+  .h {
+    width: 100%;
+    height: 1in;
+    margin: 10px;
+  }
 }
